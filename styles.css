@@ -10,10 +10,7 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
-
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 100%);
     font-family: 'Inter', sans-serif;
@@ -22,10 +19,11 @@ body {
   
 
 main {
-    display: flex;
     flex: 1;
+    display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .card {
@@ -62,7 +60,7 @@ main {
 }
 
 .job {
-    font-size: 0.875rem; /* 14px */
+    font-size: 0.875rem; 
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 1.5rem;
   }
