@@ -77,23 +77,28 @@ main {
     gap: 1rem;
   }
 
-.link {
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: white;
-    border-radius: 8px;
-    background-color: hsl(0, 0%, 20%);
+  .link {
+    background-color: hsl(0, 0%, 20%); 
+    color: hsl(0, 0%, 100%);
     padding: 0.75rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.875rem;
     cursor: pointer;
-    transform: all 0.2s ease;
+    transition: all 0.3s ease;
+    transform: translateY(0);
+    text-decoration: none;
+    display: block;
     text-align: center;
-    transform: translateY(0)
-}
-
-.link:hover {
+    text-decoration: none;
+  }
+  
+  .link:hover,
+  .link:focus {
     background-color: hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 12%); 
+    color: hsl(0, 0%, 12%);
     transform: translateY(-5px);
+    outline: none;
   }
   
 footer {
