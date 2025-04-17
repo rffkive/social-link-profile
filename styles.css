@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin: 0;
-    background-color: black;
-    font-family: Arial, sans-serif;
-    transition: background-color 0.3s ease;
+
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    padding: 1.5rem;
   }
   
 
@@ -25,7 +34,27 @@ main {
     justify-content: center;
     background-color: hsl(0, 0%, 20%);
     border-radius: 3%;
-    padding: 50px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    border-radius: 50%;
+    gap: 8px;
+}
+
+.name {
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.location {
+    color: greenyellow;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 12px;
 }
 
 .attribution { 
@@ -36,3 +65,4 @@ main {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
