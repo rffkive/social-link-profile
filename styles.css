@@ -81,11 +81,13 @@ main {
     cursor: pointer;
     transform: all 0.2s ease;
     text-align: center;
+    transform: translateY(0)
 }
 
 .link:hover {
-    background-color: hsl(75, 94%, 57%); /* Green */
-    color: hsl(0, 0%, 12%); /* Grey 800 */
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%); 
+    transform: translateY(-5px);
   }
   
 footer {
