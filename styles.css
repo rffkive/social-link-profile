@@ -81,6 +81,7 @@ main {
     padding: 0.75rem;
     cursor: pointer;
     transform: all 0.2s ease;
+    text-align: center;
 }
 
 footer {
