@@ -83,6 +83,13 @@ main {
     transform: all 0.2s ease;
 }
 
+footer {
+    margin-top: auto;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
